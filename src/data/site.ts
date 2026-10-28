@@ -4,9 +4,9 @@
 export const site = {
   name: "The Gathering Global Church",
   shortName: "TGGC",
-  tagline: "Come as you are. Leave changed.", // TODO: confirm with the church
+  tagline: "The Gathering Global Church",
   description:
-    "A welcoming community where people find faith, belong, and grow together.", // TODO
+    "in faith, by faith. in the spirit, by the spirit.",
   email: "hello@tggc.com", // TODO
   phone: "+234 000 000 0000", // TODO
   address: ["Street address", "Joke-Ayo, Lagos, Nigeria"], // TODO

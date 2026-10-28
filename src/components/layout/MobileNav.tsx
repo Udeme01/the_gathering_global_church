@@ -7,7 +7,7 @@ export default function MobileNav() {
         <nav>
           <ul>
             <li>
-              <Link href="#">LOL</Link>
+              <Link href="#">MOBILE NAV - NOT YET NEEDED!</Link>
             </li>
           </ul>
         </nav>

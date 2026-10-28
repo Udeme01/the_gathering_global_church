@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-brand-950 text-white">
       {/* 1. Call-to-action band */}
-      <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+      <div className="mx-auto max-w-[1600px] px-6 py-20 md:py-28">
         <h2 className="font-display text-5xl uppercase leading-[0.95] tracking-tight md:text-7xl">
           {site.tagline}
         </h2>
@@ -29,7 +29,7 @@ export default function Footer() {
 
       {/* 2. Info columns */}
       <div className="border-t border-white/10">
-        <div className="mx-auto grid max-w-6xl gap-12 px-6 py-16 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto grid max-w-[1600px] gap-12 px-6 py-16 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
             <Link href="/" className="inline-block">
@@ -41,7 +41,9 @@ export default function Footer() {
                 className="h-14 w-auto"
               />
             </Link>
-            <p className="mt-4 max-w-xs text-white/70">{site.description}</p>
+            <p className="mt-4 max-w-xs text-white/70 uppercase font-display tracking-wider">
+              {site.description}
+            </p>
           </div>
 
           {/* Explore */}
@@ -50,7 +52,10 @@ export default function Footer() {
             <ul className="mt-4 space-y-3 text-white/70">
               {footerLinks.explore.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="transition hover:text-white">
+                  <Link
+                    href={link.href}
+                    className="transition hover:text-white"
+                  >
                     {link.label}
                   </Link>
                 </li>
@@ -64,7 +69,10 @@ export default function Footer() {
             <ul className="mt-4 space-y-3 text-white/70">
               {footerLinks.getInvolved.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="transition hover:text-white">
+                  <Link
+                    href={link.href}
+                    className="transition hover:text-white"
+                  >
                     {link.label}
                   </Link>
                 </li>
@@ -126,7 +134,7 @@ export default function Footer() {
 
       {/* 3. Bottom bar */}
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-6 text-sm text-white/60 md:flex-row md:items-center md:justify-between">
+        <div className="mx-auto flex max-w-[1600px] flex-col gap-4 px-6 py-6 text-sm text-white/60 md:flex-row md:items-center md:justify-between">
           <p>
             © {new Date().getFullYear()} {site.name}. All rights reserved.
           </p>
@@ -144,10 +152,10 @@ export default function Footer() {
             <li>
               Built by{" "}
               <a
-                href="https://github.com/Udeme01"
+                href="www.linkedin.com/in/emmanuel-udeme"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline transition hover:text-white"
+                className="underline underline-offset-2 transition hover:text-white"
               >
                 Emmanuel Udeme
               </a>
