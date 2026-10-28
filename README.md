@@ -191,7 +191,3 @@ This project is how I'm learning Node.js, TypeScript, and relational database de
 
 **Emmanuel Udeme**: Frontend / Full-Stack Developer, Lagos, Nigeria
 [GitHub](https://github.com/Udeme01) · [LinkedIn](https://linkedin.com/in/emmanuel-udeme)
-
-## License
-
-MIT, see the [LICENSE](LICENSE) file.
