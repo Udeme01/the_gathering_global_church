@@ -2,12 +2,16 @@ import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import type { ReactNode } from "react";
 
-export default function MarketingLayout({ children }: { children: ReactNode }) {
+type MarketingLayoutProps = {
+  children: ReactNode;
+};
+
+export default function MarketingLayout({ children }: MarketingLayoutProps) {
   return (
-    <main>
+    <>
       <Header />
-      <section>{children}</section>
+      <main>{children}</main>
       <Footer />
-    </main>
+    </>
   );
 }
