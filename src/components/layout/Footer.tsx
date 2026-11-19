@@ -5,7 +5,7 @@ import { site, footerLinks } from "@/data/site";
 
 export default function Footer() {
   return (
-    <footer className="bg-brand-950 text-white">
+    <footer className="bg-black text-white">
       {/* 1. Call-to-action band */}
       <div className="mx-auto max-w-[1600px] px-6 py-20 md:py-28">
         <h2 className="font-display text-5xl uppercase leading-[0.95] tracking-tight md:text-7xl">

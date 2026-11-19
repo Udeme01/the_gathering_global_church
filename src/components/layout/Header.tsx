@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-50 bg-brand-950 px-6 py-3 text-white">
+      <header className="sticky inset-x-0 top-0 z-50 bg-black px-6 py-3 text-white">
         <div className="mx-auto flex max-w-[1600px] items-center justify-between">
           <Link href="/" onClick={close}>
             <Image

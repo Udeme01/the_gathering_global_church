@@ -54,7 +54,7 @@ export default function MenuOverlay({ open, onClose }: MenuOverlayProps) {
       aria-modal="true"
       aria-label="Site menu"
       aria-hidden={!open}
-      className={`fixed inset-0 z-40 overflow-y-auto bg-brand-950 text-white transition-all duration-300 ${
+      className={`fixed inset-0 z-40 overflow-y-auto bg-black text-white transition-all duration-300 ${
         open ? "visible opacity-100" : "invisible opacity-0"
       }`}
     >
@@ -68,7 +68,7 @@ export default function MenuOverlay({ open, onClose }: MenuOverlayProps) {
                   href={link.href}
                   onClick={onClose}
                   aria-current={isActive(link.href) ? "page" : undefined}
-                  className={`block font-display text-5xl uppercase leading-[1.1] tracking-tight transition-colors hover:text-sun sm:text-6xl lg:text-7xl ${
+                  className={`block font-display text-5xl uppercase leading-[1.25] tracking-tight transition-colors hover:text-sun lg:text-6xl ${
                     isActive(link.href) ? "text-sun" : "text-white"
                   }`}
                 >
