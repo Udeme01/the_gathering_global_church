@@ -1,4 +1,6 @@
 import Hero from "@/components/home/Hero";
+import ServiceTimesSection from "@/components/home/ServiceTimesSection";
+import UpcomingEventsSection from "@/components/home/UpcomingEventsSection";
 import WelcomeSection from "@/components/home/WelcomeSection";
 
 export const metadata = {
@@ -12,6 +14,8 @@ export default function HomePage() {
     <main>
       <Hero />
       <WelcomeSection />
+      <ServiceTimesSection />
+      <UpcomingEventsSection />
       <section className="h-screen"></section>
     </main>
   );
